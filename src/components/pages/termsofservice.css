@@ -1,0 +1,83 @@
+#terms-of-service {
+  width: calc(100% - 10rem);
+  margin: 0 3rem 2rem 3rem;
+  overflow: visible;
+}
+
+#terms-of-service h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  margin: 0 0 16px;
+}
+
+#terms-of-service h2 {
+  display: block;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 48px;
+  margin: 0 0 16px;
+}
+
+#terms-of-service p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+#terms-of-service ol {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+#terms-of-service ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+#terms-of-service li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+  margin: 0 0 16px;
+}
+
+body {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.container {
+  position: relative;
+  width: 90%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+/* this will override just about all bottom margins */
+#terms-of-service > div:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.main-title {
+  margin: 2rem 0rem 0.5rem;
+}
+
+.website {
+  color: #7d91e7;
+}
+
+.website:hover {
+  color: #a1afec;
+}

@@ -1,0 +1,31 @@
+.footer {
+  width: 100vw;
+  height: 5rem;
+  background: #f8f8f8;
+  color: #030303;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 300;
+  font-size: small;
+}
+
+.logo {
+  object-fit: cover;
+  height: 1rem;
+  margin: 2rem;
+}
+
+.page-link {
+  margin: 1rem;
+}
+
+.center-page {
+  text-align: center;
+}
+
+@media screen and (max-width: 400px) {
+  .page-link {
+    font-size: 10px;
+  }
+}

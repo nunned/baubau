@@ -1,0 +1,103 @@
+.navbar {
+  background: #f8f8f8;
+  height: 5rem;
+  width: 100vw;
+  max-width: 75rem;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0rem;
+  z-index: 3;
+  color: #030303;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.baulogo {
+  object-fit: cover;
+  height: 3rem;
+  background-color: transparent;
+}
+
+.desktopMenuListItem {
+  background-color: transparent;
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.desktopMenuListItem:hover {
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid #c6a4a4;
+}
+
+.desktopMenu {
+  background-color: transparent;
+}
+
+.desktopMenuBtn {
+  background: white;
+  border-radius: 5px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem 0 0;
+}
+
+.desktopMenuImg {
+  object-fit: cover;
+  height: 1rem;
+  margin: 1rem;
+  background-color: transparent;
+}
+
+.active {
+  color: #c6a4a4;
+  border-bottom: 3px solid #c6a4a4;
+  padding-bottom: 0.5rem;
+}
+
+.mob-menu {
+  display: none;
+  object-fit: cover;
+  height: 1.8rem;
+}
+
+.navMenu {
+  position: absolute;
+  top: 5rem;
+  right: 2rem;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.75rem;
+  background: #f8f8f8;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  height: fit-content;
+  min-width: 10rem;
+}
+
+.ListItem {
+  padding: 0.5rem 3rem;
+  margin: 0.25rem;
+}
+
+@media screen and (max-width:720px) {
+  .mob-menu {
+    display: flex;
+  }
+
+  .desktopMenu {
+    display: none;
+  }
+
+  .desktopMenuBtn {
+    display: none;
+  }
+}

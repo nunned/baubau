@@ -1,0 +1,132 @@
+#skills {
+  overflow: hidden;
+  width: 100vw;
+  max-width: 65rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.skill-title {
+  font-size: 3rem;
+  font-weight: 500;
+  padding-top: 3rem;
+}
+
+.skill-desc {
+  font-weight: 100;
+  font-size: 1rem;
+  max-width: 50rem;
+  margin-bottom: 2rem;
+  line-height: 24px;
+}
+
+.skillBars {
+  margin: 1.5rem;
+  width: 100vw;
+  max-width: 80%;
+  text-align: left;
+  margin-bottom: 3rem;
+}
+
+.skillBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+  padding: 1.5rem 2rem;
+  border-radius: 0.5rem;
+  background: rgb(33, 34, 34);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.skillBar:hover {
+  animation: pulse 2s 1;
+}
+
+.skillBar-img {
+  object-fit: cover;
+  height: 64px;
+  margin-right: 2rem;
+}
+
+.skillBar-text > p {
+  font-size: 0.9rem;
+}
+
+.tech-icons {
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.tech-icon-img {
+  display: inline-block;
+  vertical-align: middle;
+  /* adjust spacing and size as needed */
+  margin-right: 20px;
+  height: 50px;
+  width: auto;
+}
+
+@keyframes moveBelt {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee {
+  display: inline-block;
+  animation: moveBelt 20s linear infinite;
+}
+
+
+@media screen and (max-width: 840px) {
+  .skillBar-text > p {
+    font-size: 0.75rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .skill-desc {
+    font-size: 0.8rem;
+    margin: 0 1rem;
+  }
+
+  .skillBar {
+    padding: 1rem 1rem;
+  }
+
+  .skillBar-text > p {
+    font-size: 0.6rem;
+  }
+
+  .skillBar-text > h2 {
+    font-size: 1rem;
+  }
+
+  .skillBar-img {
+    height: 2rem;
+    width: 2rem;
+  }
+}
