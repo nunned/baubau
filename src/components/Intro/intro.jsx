@@ -39,7 +39,7 @@ const Intro = () => {
         >
           <button className="btn">
             <img src={handshake} alt="" />
-            Hire Me
+            Let&rsquo;s work
           </button>
         </Link>
       </div>
