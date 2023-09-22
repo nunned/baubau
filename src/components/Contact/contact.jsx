@@ -16,7 +16,9 @@ const Contact = () => {
           <span className="contact-desc">
             Let&rsquo;s connect and explore potential work opportunities
             together. <br />
-            Begin by filling out the form below.
+            Begin by filling out the form below. <br />
+            Or send me an email at&nbsp;
+            <a href="mailto:chanon@baubau.space">chanon@baubau.space</a>
           </span>
         </div>
 
