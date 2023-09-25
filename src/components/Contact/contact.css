@@ -22,7 +22,15 @@
 .contact-desc {
   font-size: medium;
   font-weight: 300;
-  text-align: center;
+}
+
+.contact-desc a {
+  font-weight: 500;
+  color: #bc5555;
+  text-decoration: inherit;
+}
+.contact-desc a:hover {
+  color: #487a51;
 }
 
 .contact-form {
