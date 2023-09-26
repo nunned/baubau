@@ -1,6 +1,7 @@
 import "./contact.css";
 import { useForm, ValidationError } from "@formspree/react";
-import insta from "../../assets/instagram.png";
+import insta from "../../assets/instagram.svg";
+import linkedin from "../../assets/linkedin.svg";
 
 const Contact = () => {
   const [state, handleSubmit] = useForm("mwkdqpqr");
@@ -81,6 +82,13 @@ const Contact = () => {
             rel="noopener noreferrer"
           >
             <img src={insta} alt="Instagram" className="link" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/chanon-cserepy/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={linkedin} alt="LinkedIn" className="link" />
           </a>
           {/* edit once more social media */}
         </div>
