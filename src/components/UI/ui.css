@@ -63,7 +63,22 @@
 @media screen and (max-width: 960px) {
   .panel {
     object-fit: cover;
-    height: 40vw;
-    width: 20vw;
+    width: 80vw;  
+    transform: none !important;
+    transition: none !important;
+  }
+
+  .budder-ui {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    perspective: none !important;
+  }
+
+  .budder-wrap {
+    perspective: none !important;
   }
 }
+
+
+

@@ -110,7 +110,7 @@
 
 @media screen and (max-width: 480px) {
   .skill-desc {
-    font-size: 0.8rem;
+    font-size: 1rem;
     margin: 0 1rem;
   }
 
@@ -119,11 +119,11 @@
   }
 
   .skillBar-text > p {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
   }
 
   .skillBar-text > h2 {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   .skillBar-img {

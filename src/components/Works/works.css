@@ -71,9 +71,11 @@
   }
 
   .works-desc {
-    font-size: 0.9rem; /* smaller font for description */
+    font-size: 1rem; /* smaller font for description */
     line-height: 24px;
     max-width: 90%; /* give a little more space from the edges */
+    margin-top: 1rem;
+    margin-bottom: 2rem;
   }
   .works-img {
     height: 6rem; /* smaller images */
